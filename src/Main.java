@@ -4,6 +4,6 @@ public class Main {
         int weightInKilos = 50;
         float heightInMetres = 1.52F;
         float bodyMassIndex = service.calculate(weightInKilos,heightInMetres);
-        System.out.println(bodyMassIndex);
+        System.out.printf("Результат: %.2f\n", bodyMassIndex);
     }
 }
